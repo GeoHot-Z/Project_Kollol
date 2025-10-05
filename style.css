@@ -22,9 +22,8 @@ body {
 }
 
 .kollol {
-  width: auto;
-  height: auto;                  
-  max-width: 100%;               
+  width: 100%;                  
+  max-width: 500px;               
   border: 2px solid white;
   object-fit: contain;
 }
