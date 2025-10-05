@@ -29,8 +29,9 @@ body {
 }
 
 
-@media (max-height: 700px) {
-  .kollol {
+@media (max-height: 700px)
+
+.kollol {
     height: 60vh;                
 }
 
