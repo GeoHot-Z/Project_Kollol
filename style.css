@@ -23,18 +23,28 @@ body {
 
 .kollol {
   width: 100%;                  
-  max-width: 700px;               
+  max-width: 700px;
+  height: auto;              
   border: 2px solid white;
   object-fit: contain;
 }
 
-
-@media (max-height: 700px)
-
-.kollol {
-    height: 60vh;                
+h1 {
+  font-size: 1.3rem;     /* was 1.1rem */
+}
+p {
+  font-size: 1.1rem;     /* was 0.9rem */
 }
 
-  .poster {
-    transform: scale(0.9);       
+
+@media (max-width: 600px) {
+  .kollol {
+    max-width: 95vw;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
 }
