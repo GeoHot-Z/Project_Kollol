@@ -23,19 +23,9 @@ body {
 
 .kollol {
   width: 100%;                  
-  max-width: 500px;               
+  max-width: 700px;               
   border: 2px solid white;
   object-fit: contain;
-}
-
-h1 {
-  margin: 5px 0 3px;
-  font-size: 1.1rem;
-}
-
-p {
-  margin: 0;
-  font-size: 0.9rem;
 }
 
 
