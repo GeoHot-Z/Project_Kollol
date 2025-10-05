@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  margin: 0;
+  height: 100vh;                
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;           
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+.poster {
+  text-align: center;
+  transform: scale(0.85);     
+  transform-origin: center; 
+  margin-top: 20px;   
+}
+
+.kollol {
+  max-height: 80vh;             
+  width: auto;
+  border: 2px solid white;
+  object-fit: contain;
+}
