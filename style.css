@@ -30,21 +30,22 @@ body {
 }
 
 h1 {
-  font-size: 1.3rem;     /* was 1.1rem */
+  font-size: 2rem;
 }
 p {
-  font-size: 1.1rem;     /* was 0.9rem */
+  font-size: 1.5rem;
 }
-
-
+.kollol {
+  max-width: 900px;
+}
 @media (max-width: 600px) {
   .kollol {
-    max-width: 95vw;
+    max-width: 98vw;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
 }
